@@ -1,5 +1,12 @@
 
 
+## [0.2.0](https://github.com/luoyi58624/vue3_template/compare/0.1.1...0.2.0) (2024-01-22)
+
+
+### Features
+
+* ddd ([07ca9fc](https://github.com/luoyi58624/vue3_template/commit/07ca9fcf585b1af7b0a886330d970b07feb8b164))
+
 ## [0.1.1](https://github.com/luoyi58624/vue3_template/compare/0.1.0...0.1.1) (2024-01-22)
 
 ## [0.1.0](https://github.com/luoyi58624/vue3_template/compare/0.0.4...0.1.0) (2024-01-22)
