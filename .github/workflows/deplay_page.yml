@@ -1,4 +1,4 @@
-name: deplay page
+name: deplay github page
 
 on:
   push:
@@ -42,11 +42,11 @@ jobs:
         run: pnpm i --no-frozen-lockfile
 
       - name: Build
-        run: pnpm run build
+        run: pnpm run build:github
 
       - name: Deploy page
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: example_pages
+          branch: github_pages
           folder: dist
           clean: true
