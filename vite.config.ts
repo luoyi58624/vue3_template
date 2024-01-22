@@ -19,7 +19,7 @@ export default defineConfig(({ mode }) => {
 			UnoCSS(),
 			AutoImport({
 				imports: ['vue', 'pinia', '@vueuse/core'],
-				dirs: ['./src/store']
+				dirs: ['./src/stores']
 			}),
 			Components({
 				dirs: ['src/components'], // 搜索目录

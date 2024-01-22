@@ -5,4 +5,4 @@ import 'virtual:uno.css'
 
 import './styles/index.scss'
 
-createApp(App).mount('#app')
+createApp(App).use(createPinia()).mount('#app')
