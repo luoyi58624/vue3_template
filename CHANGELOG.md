@@ -1,5 +1,12 @@
 
 
+## [0.3.0](https://github.com/luoyi58624/vue3_template/compare/0.2.0...0.3.0) (2024-01-22)
+
+
+### Features
+
+* add husky ([cf35b1a](https://github.com/luoyi58624/vue3_template/commit/cf35b1a449bdba9c6157dd9340a1bcb025a2456f))
+
 ## [0.2.0](https://github.com/luoyi58624/vue3_template/compare/0.1.1...0.2.0) (2024-01-22)
 
 
