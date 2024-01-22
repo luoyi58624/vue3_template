@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => {
 			vue(),
 			UnoCSS(),
 			AutoImport({
-				imports: ['vue', '@vueuse/core'],
+				imports: ['vue', 'pinia', '@vueuse/core'],
 				dirs: ['./src/store']
 			}),
 			Components({
