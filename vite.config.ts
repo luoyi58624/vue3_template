@@ -18,7 +18,8 @@ export default defineConfig(({ mode }) => {
 			vue(),
 			UnoCSS(),
 			AutoImport({
-				imports: ['vue', '@vueuse/core']
+				imports: ['vue', '@vueuse/core'],
+				dirs: ['./src/store']
 			}),
 			Components({
 				dirs: ['src/components'], // 搜索目录
