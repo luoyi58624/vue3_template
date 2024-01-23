@@ -1,9 +1,8 @@
 name: deplay github page
 
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [ created ]
 
 permissions:
   contents: write
