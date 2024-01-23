@@ -18,8 +18,8 @@ export default defineConfig(({ mode }) => {
 			vue(),
 			UnoCSS(),
 			AutoImport({
-				imports: ['vue', 'pinia', '@vueuse/core'],
-				dirs: ['./src/stores']
+				imports: ['vue', 'vue-router', 'pinia', '@vueuse/core'],
+				dirs: ['./src/stores', './src/utils']
 			}),
 			Components({
 				dirs: ['src/components'], // 搜索目录

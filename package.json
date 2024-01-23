@@ -18,7 +18,8 @@
     "dayjs": "^1.11.10",
     "lodash": "^4.17.21",
     "pinia": "^2.1.7",
-    "vue": "^3.4.15"
+    "vue": "^3.4.15",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.5.0",
