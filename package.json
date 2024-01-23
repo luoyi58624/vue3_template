@@ -10,7 +10,7 @@
     "update": "ncu -u && pnpm update",
     "release": "dotenv -e .env.local release-it -- --ci",
     "prepare": "husky install",
-    "postinstall": "pnpm -v"
+    "postinstall": "pnpm -v && git init"
   },
   "dependencies": {
     "@ctrl/tinycolor": "^4.0.3",
