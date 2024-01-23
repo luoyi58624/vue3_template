@@ -8,7 +8,8 @@
     "build:github": "vite build --mode github",
     "preview": "vite preview",
     "update": "ncu -u && pnpm update",
-    "release": "dotenv -e .env.local release-it -- --ci"
+    "release": "dotenv -e .env.local release-it -- --ci",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
