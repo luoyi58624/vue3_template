@@ -22,6 +22,11 @@ jobs:
           npm --version
           npx commitlint --version
 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: false
+
       - name: Get pnpm store directory
         shell: bash
         run: |
