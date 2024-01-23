@@ -1,5 +1,12 @@
 
 
+## [1.0.4](https://github.com/luoyi58624/vue3_template/compare/1.0.3...1.0.4) (2024-01-23)
+
+
+### Chore
+
+* update package.json ([abb256e](https://github.com/luoyi58624/vue3_template/commit/abb256e314c3ef1c6d094ba4b8caa64a8644aedc))
+
 ## [1.0.3](https://github.com/luoyi58624/vue3_template/compare/1.0.2...1.0.3) (2024-01-23)
 
 ## [1.0.2](https://github.com/luoyi58624/vue3_template/compare/1.0.1...1.0.2) (2024-01-23)
