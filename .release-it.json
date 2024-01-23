@@ -21,51 +21,51 @@
           },
           {
             "type": "fix",
-            "section": "Bug Fixes"
-          },
-          {
-            "type": "chore",
-            "section": "Chore"
-          },
-          {
-            "type": "docs",
-            "section": "Docs"
-          },
-          {
-            "type": "build",
-            "hidden": true
-          },
-          {
-            "type": "ci",
-            "hidden": true
-          },
-          {
-            "type": "optimize",
-            "hidden": true
+            "section": "Fixes"
           },
           {
             "type": "perf",
-            "hidden": true
+            "section": "Performance"
+          },
+          {
+            "type": "chore",
+            "section": "Other"
+          },
+          {
+            "type": "docs",
+            "section": "Other"
+          },
+          {
+            "type": "build",
+            "section": "Other"
+          },
+          {
+            "type": "ci",
+            "section": "Other"
+          },
+          {
+            "type": "optimize",
+            "section": "Other"
           },
           {
             "type": "refactor",
-            "hidden": true
+            "section": "Other"
           },
           {
             "type": "revert",
-            "hidden": true
+            "section": "Other"
           },
           {
             "type": "style",
-            "hidden": true
+            "section": "Other"
           },
           {
             "type": "test",
-            "hidden": true
+            "section": "Other"
           },
           {
             "type": "update",
-            "hidden": true
+            "section": "Other"
           }
         ]
       }

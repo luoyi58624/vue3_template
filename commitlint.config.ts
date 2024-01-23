@@ -6,12 +6,12 @@
  * 	  - feat!、fix!: 重大更新、或破坏式升级、修复bug  	- release时将自动增加第一个版本号
  *    - feat: 新特性、新功能  					    - release时将自动增加第二个版本号
  *    - fix: 修改bug    				            - release时将自动增加第三个版本号(以下所有类型提交执行release时都只会更新小版本)
+ *    - perf: 优化相关，比如提升性能、体验
  *    - chore: 其他修改, 比如改变构建流程、或者增加依赖库、工具等
  *    - docs: 仅文档新增/改动 （documentation）
  *    - build: 编译相关的修改，例如发布版本、对项目构建或者依赖的改动
  *    - ci: 持续集成修改
  *    - optimize: 优化构建工具或运行时性能
- *    - perf: 优化相关，比如提升性能、体验
  *    - refactor: 代码重构
  *    - revert: 回滚到上一个版本
  *    - style: 代码格式修改, 注意不是 css 修改
@@ -23,12 +23,12 @@
 const type = [
 	'feat',
 	'fix',
+	'perf',
 	'chore',
 	'docs',
 	'build',
 	'ci',
 	'optimize',
-	'perf',
 	'refactor',
 	'revert',
 	'style',
