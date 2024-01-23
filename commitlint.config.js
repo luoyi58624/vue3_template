@@ -1,14 +1,14 @@
 /*
  * @Description: commit-msg提交信息格式规范
  *
- * commit-msg格式: <type>(scope?): <subject>
+ * commit-msg格式: <type>(scope?): <subject>         注意: 冒号:和<subject>之间需要一个空格
  *  - type: 用于表明我们这次提交的改动类型，是新增了功能？还是修改了测试代码？又或者是更新了文档？
- *    - build: 编译相关的修改，例如发布版本、对项目构建或者依赖的改动
+ *    - feat: 新特性、新功能（feature）  如果提交中包含此类型，release时将自动增加第二个版本号
+ *    - fix: 修改bug（fixbug）		    如果提交中包含此类型，release时将自动增加第三个版本号
  *    - chore: 其他修改, 比如改变构建流程、或者增加依赖库、工具等
- *    - ci: 持续集成修改
  *    - docs: 仅文档新增/改动 （documentation）
- *    - feat: 新特性、新功能（feature）
- *    - fix: 修改bug（fixbug）
+ *    - build: 编译相关的修改，例如发布版本、对项目构建或者依赖的改动
+ *    - ci: 持续集成修改
  *    - optimize: 优化构建工具或运行时性能
  *    - perf: 优化相关，比如提升性能、体验
  *    - refactor: 代码重构
@@ -20,12 +20,12 @@
  *  - Subject：一句话描述此次提交的主要内容，做到言简意赅
  */
 const type = [
-	'build',
-	'chore',
-	'ci',
-	'docs',
 	'feat',
 	'fix',
+	'chore',
+	'docs',
+	'build',
+	'ci',
 	'optimize',
 	'perf',
 	'refactor',

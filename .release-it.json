@@ -32,19 +32,39 @@
             "section": "Docs"
           },
           {
-            "type": "style",
+            "type": "build",
             "hidden": true
           },
           {
-            "type": "refactor",
-            "section": "Refactor"
+            "type": "ci",
+            "hidden": true
+          },
+          {
+            "type": "optimize",
+            "hidden": true
           },
           {
             "type": "perf",
             "hidden": true
           },
           {
+            "type": "refactor",
+            "hidden": true
+          },
+          {
+            "type": "revert",
+            "hidden": true
+          },
+          {
+            "type": "style",
+            "hidden": true
+          },
+          {
             "type": "test",
+            "hidden": true
+          },
+          {
+            "type": "update",
             "hidden": true
           }
         ]
