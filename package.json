@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "update": "ncu -u && pnpm update",
     "release": "dotenv -e .env.local release-it -- --ci",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "pnpm -v"
   },
   "husky": {
     "hooks": {
