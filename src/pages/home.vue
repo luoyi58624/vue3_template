@@ -9,7 +9,6 @@ const count = ref(0)
     <HelloWorld msg="Vite + Vue" v-model:count="count" />
     <p>store count: {{ appStore.count }}</p>
     <button class="btn-primary" @click="$router.push('/test')">测试页面</button>
-    <p>哈喽 修复</p>
   </div>
 </template>
 
