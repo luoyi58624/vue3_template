@@ -1,5 +1,12 @@
 
 
+## [1.0.1](https://github.com/luoyi58624/vue3_template/compare/1.0.0...1.0.1) (2024-01-23)
+
+
+### Chore
+
+* update commitlint.config.js ([ef58c8e](https://github.com/luoyi58624/vue3_template/commit/ef58c8e3b23419992b1c96f4ed3e4be5401d175a))
+
 ## [1.0.0](https://github.com/luoyi58624/vue3_template/compare/0.3.0...1.0.0) (2024-01-23)
 
 
