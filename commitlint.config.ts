@@ -35,8 +35,7 @@ const type = [
 	'test',
 	'update'
 ]
-module.exports = {
-	ignores: [commit => commit.includes('init')],
+export default {
 	extends: ['@commitlint/config-conventional'],
 	rules: {
 		'type-empty': [2, 'never'], // <type> 不能为空

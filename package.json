@@ -12,11 +12,6 @@
     "prepare": "husky install",
     "postinstall": "pnpm -v"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"git commit trigger husky pre-commit hook\""
-    }
-  },
   "dependencies": {
     "@unocss/reset": "^0.58.3",
     "@vueuse/core": "^10.7.2",
