@@ -1,5 +1,36 @@
 
 
+## [2.0.0](https://github.com/luoyi58624/vue3_template/compare/1.1.1...2.0.0) (2024-01-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* delete home page 测试dom
+
+### Features
+
+* add test page ([5363d89](https://github.com/luoyi58624/vue3_template/commit/5363d894e7fc8c2e9fef4ebb659fd8f9b3319edc))
+
+
+### Fixes
+
+* delete home page 测试dom ([09da3de](https://github.com/luoyi58624/vue3_template/commit/09da3de7ec3dd779947cce1e54f3708bd2db1045))
+* home page add fix 测试 ([25b0a5e](https://github.com/luoyi58624/vue3_template/commit/25b0a5e23d19418b1613d3e74c8a8da51c18d423))
+* test page ([61b70f6](https://github.com/luoyi58624/vue3_template/commit/61b70f653a8ffabccdd074cd2d2f79fbdd1d192f))
+* test page ([f1694e1](https://github.com/luoyi58624/vue3_template/commit/f1694e1371506669eeacc103d83703517cd14199))
+
+
+### Other
+
+* home page ([e1f91bc](https://github.com/luoyi58624/vue3_template/commit/e1f91bc3bc2d59c25837b2e851ffdbb70e89e00a))
+* home page ([6deafe3](https://github.com/luoyi58624/vue3_template/commit/6deafe34837b80cdacf012697002326a4aa25934))
+* home page ([da67a80](https://github.com/luoyi58624/vue3_template/commit/da67a803644be2983053f0fb9654aaf28686e4ff))
+* home page add 测试 ([ec65f8d](https://github.com/luoyi58624/vue3_template/commit/ec65f8dd7e1178c747c1f8c4600d111ca05c0e34))
+* test page ([581dfb8](https://github.com/luoyi58624/vue3_template/commit/581dfb88f5a6e05281f89e141f7c7ea75410050d))
+* test page ([686bf9a](https://github.com/luoyi58624/vue3_template/commit/686bf9ab601e386fd0ba251695f8b6592fef5e8c))
+* test page ([2e26378](https://github.com/luoyi58624/vue3_template/commit/2e26378a4a1dc19856c700bff9945ac2528f60ea))
+* update ci.yml ([407c2c6](https://github.com/luoyi58624/vue3_template/commit/407c2c69ea97cb1f4003cf9b1cf5034ee9ef38a3))
+
 ## [1.1.1](https://github.com/luoyi58624/vue3_template/compare/1.1.0...1.1.1) (2024-01-23)
 
 ## [1.1.0](https://github.com/luoyi58624/vue3_template/compare/1.0.6...1.1.0) (2024-01-23)
