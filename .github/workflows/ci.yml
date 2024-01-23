@@ -22,10 +22,21 @@ jobs:
           npm --version
           npx commitlint --version
 
-      - name: Install dependencies
+      - name: Get pnpm store directory
+        shell: bash
         run: |
-          npm install conventional-changelog-conventionalcommits
-          npm install commitlint@latest
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store- 
+
+      - name: Install dependencies
+        run: pnpm i --no-frozen-lockfile
 
       - name: Validate current commit (last commit) with commitlint
         if: github.event_name == 'push'
