@@ -1,5 +1,13 @@
 
 
+## [2.1.0](https://github.com/luoyi58624/vue3_template/compare/2.0.0...2.1.0) (2024-01-23)
+
+
+### Features
+
+* add axios ([3590751](https://github.com/luoyi58624/vue3_template/commit/35907512b815b6c01d0d976c69b6a227ad893b88))
+* add demo util ([e3cb7ea](https://github.com/luoyi58624/vue3_template/commit/e3cb7eabf0f820a506ac27914eef08a649c3d6fa))
+
 ## [2.0.0](https://github.com/luoyi58624/vue3_template/compare/1.1.1...2.0.0) (2024-01-23)
 
 
