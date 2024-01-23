@@ -1,5 +1,7 @@
 
 
+## [1.0.5](https://github.com/luoyi58624/vue3_template/compare/1.0.4...1.0.5) (2024-01-23)
+
 ## [1.0.4](https://github.com/luoyi58624/vue3_template/compare/1.0.3...1.0.4) (2024-01-23)
 
 
