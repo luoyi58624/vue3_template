@@ -1,5 +1,12 @@
 
 
+## [1.1.0](https://github.com/luoyi58624/vue3_template/compare/1.0.6...1.1.0) (2024-01-23)
+
+
+### Features
+
+* add vue-router ([7b25937](https://github.com/luoyi58624/vue3_template/commit/7b2593794563291c5bb0b85c86effc88b18b777b))
+
 ## [1.0.6](https://github.com/luoyi58624/vue3_template/compare/1.0.5...1.0.6) (2024-01-23)
 
 
