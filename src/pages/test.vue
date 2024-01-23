@@ -2,10 +2,10 @@
 
 <template>
 	<h1>测试页面</h1>
-	<label class="switch">
-      <input type="checkbox" />
-		<span class="slider round"></span>
-	</label>
+<!--	<label class="switch">-->
+<!--      <input type="checkbox" />-->
+<!--		<span class="slider round"></span>-->
+<!--	</label>-->
 </template>
 
 <style scoped lang="scss">
