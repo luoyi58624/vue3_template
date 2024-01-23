@@ -1,5 +1,12 @@
 
 
+## [1.0.6](https://github.com/luoyi58624/vue3_template/compare/1.0.5...1.0.6) (2024-01-23)
+
+
+### Other
+
+* update ci.yml ([2f4cfd5](https://github.com/luoyi58624/vue3_template/commit/2f4cfd55bbcbeacc708e38799236d7f581cf9f13))
+
 ## [1.0.5](https://github.com/luoyi58624/vue3_template/compare/1.0.4...1.0.5) (2024-01-23)
 
 ## [1.0.4](https://github.com/luoyi58624/vue3_template/compare/1.0.3...1.0.4) (2024-01-23)
